@@ -24,16 +24,16 @@
         <div class="h-screen w-full">
             <!-- nav -->
             <nav
-                class="flex justify-center items-center shadow-2xl bg-teal-950 text-white h-[80px]"
+                class="flex justify-center items-center shadow-2xl bg-teal-950 text-white h-[80px] absolute z-50 w-full"
             >
                 <h1 class="text-2xl font-semibold">Temperature Conversion</h1>
             </nav>
 
             <main>
                 <!-- TEMPERATURE CONVERTION -->
-                <div class="h-[calc(100vh-110px)] grid place-content-center">
+                <div class="h-screen grid place-content-center">
                     <form
-                        class="h-[600px] w-[450px] rounded-2xl flex flex-col justify-around items-center mx-auto shadow-2xl bg-teal-950 text-white"
+                        class="h-[500px] w-[400px] rounded-2xl flex flex-col justify-around items-center mx-auto shadow-2xl bg-teal-950 text-white"
                     >
                         <label
                             for="tempconversion"
@@ -46,7 +46,7 @@
                                 type="number"
                                 id="inputBox"
                                 value="0"
-                                class="text-2xl rounded-2xl bg-slate-500 text-slate-950 outline-none p-2 roundeds"
+                                class="text-2xl rounded-2xl bg-slate-500 text-slate-950 outline-none p-2"
                                 placeholder="Enter The Temperature"
                             /><br />
                         </div>
@@ -60,7 +60,7 @@
                                 />
                                 <label
                                     for="toFarenhet"
-                                    class="toFarenhet font-xl cursor-pointer"
+                                    class="toFarenhet text-base cursor-pointer"
                                     >Celcius ➡️ Fahrenheit</label
                                 >
                             </div>
@@ -73,7 +73,7 @@
                                 />
                                 <label
                                     for="toCelcius"
-                                    class="toCelcius ont-xl cursor-pointer"
+                                    class="toCelcius text-base cursor-pointer"
                                     >Fahrenheit ➡️ Celcius</label
                                 >
                             </div>
@@ -97,7 +97,7 @@
             <!-- footer -->
             <footer
                 id="footer"
-                class="bg-teal-950 text-gray-300 flex items-center justify-center h-[30px]"
+                class="bg-teal-950 text-s text-gray-300 flex items-center justify-center h-[30px] absolute z-50 w-full bottom-0"
             >
                 <p>
                     @2024
