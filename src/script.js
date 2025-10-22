@@ -19,7 +19,7 @@ function tempConver() {
         results.style.color = "black";
         results.style.padding = "8px";
     } else {
-        results.textContent = "Please select a uni to be converted";
+        results.textContent = "Please select a unit to be converted";
         results.style.color = "red";
         results.style.padding = "8px";
     }
