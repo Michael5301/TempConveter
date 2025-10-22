@@ -10,12 +10,12 @@ let temp;
 function tempConver() {
     if (toFarenhet.checked) {
         temp = ((inputBox.value * 9) / 5 + 32).toFixed(1);
-        results.textContent = `Temperaturature is ${temp}° Fahrenheit.`;
+        results.textContent = `Temperature is ${temp}° Fahrenheit.`;
         results.style.color = "black";
         results.style.padding = "8px";
     } else if (toCelcius.checked) {
         temp = (((inputBox.value - 32) * 5) / 9).toFixed(1);
-        results.textContent = `Temperaturature is ${temp}° Celcius.`;
+        results.textContent = `Temperature is ${temp}° Celcius.`;
         results.style.color = "black";
         results.style.padding = "8px";
     } else {
